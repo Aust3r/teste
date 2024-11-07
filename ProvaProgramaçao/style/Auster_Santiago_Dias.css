@@ -1,0 +1,373 @@
+:root {
+    --cor-principal: #010059;
+    --cor-secundaria: #107595;
+    --cor-terciaria: #FDBFB3;
+    --cor-quatro: #fcf594;
+    --aux-color-1: #fff;
+    --aux-color-2: #000;
+}
+
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+html{
+    width: 100vw;
+}
+
+body {
+    background-color: var(--verde);
+}
+
+.menudecima{
+    background-color:var(--cor-principal);
+    font-size: 25px;
+    color: var(--cor-quatro);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menudecima div{
+    width: 75%;
+    display: flex;
+    align-items: center;  
+}
+
+.menudecima div ul{
+    display: flex;
+    list-style: none;
+}
+
+.menudecima ul li{
+    margin-right: 100px;
+}
+
+.menudecima ul li a{
+    color: var(--cor-quatro);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.menudecima ul li a:hover{
+    color: var(--aux-color-2);
+    transition: 0.5s;
+    color: var(--cor-terciaria);
+}
+
+.menudecima img{
+    border-radius: 50%;
+    width: 70px;
+}
+
+h1{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: var(--cor-quatro);
+}
+
+
+.container-header{
+    border: 1px solid black;
+    height: 80vh;
+    background-image: url(../imgs/img1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cointainer-title{
+    border: 1px;
+    margin-top: 20vw;
+    margin-left: 15vw;
+}
+
+.title_1{
+    color: var(--cor-quatro);
+    text-shadow: 3px 3px 3px var(--cor-principal);
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 1;
+    padding-left: revert-layer;
+}
+
+.title_2{
+    color: var(--cor-quatro);
+    text-shadow: 3px 3px 3px var(--cor-principal);
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.title_3{
+    color: var(--cor-quatro);
+    text-shadow: 3px 3px 3px var(--cor-principal);
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.title_4{
+    color: var(--cor-quatro);
+    text-shadow: 3px 3px 3px var(--cor-principal);
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.main{
+    background-color: var(--cor-principal);
+}
+
+.container-octo{
+    background-color: var(--cor-principal);
+    color: var(--cor-terciaria);
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.container-octo h2{
+    font-size: 40px;
+    font-weight: 100;
+    color: var(--cor-terciaria);
+    margin-bottom: 30px;
+}
+
+.container-octo p{
+    font-size: 22px;
+    font-weight: 1.5;
+    margin-bottom: 35px;
+    color: var(--cor-terciaria);
+    padding-left: 5px;
+}
+
+.container-serie{
+    background-color: var(--cor-terciaria);
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--cor-principal);
+    border: 2px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-octo-serie{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text{
+    font-size: 22px;
+}
+
+.card-text p{
+color: var(--cor-principal);
+}
+
+.octo-serie-card{
+border: 5px;
+width: 23%;
+}
+
+.octo-serie-card figure{
+    border: 5px;
+    width: 100%;
+}
+
+.octo-serie-card figure img{
+    width: 145px;
+    height: 225px;
+
+}
+
+.card-btn{
+    text-align: center;
+}
+
+.btn{
+    font-size: 15px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--aux-color-1);
+    color: var(--aux-color-1);
+    padding: 8px;
+    font-size: 15px;
+}
+
+.footer{
+    border-color:s;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+    background-color: var(--cor-secundaria);
+}
+
+.aqembaixo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.aqembaixo p{
+    font-size: 30px;
+    color: var(--cor-principal);
+    padding-top: 20px;
+    /* padding-left: 225px; */
+}
+
+.octologo{
+    height: 100px;
+    border-radius: 3%;
+    justify-content: center;
+    /* padding-right: 200px; */
+}
+
+.menudebaixo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icone1{
+    width: 50px;
+    justify-content: center;
+}
+
+.infos{
+    font-size: 20px;
+    justify-content: center;
+    color: var(--aux-color-2);
+}
+
+
+
+/* PAGINA : SOBRE */
+
+h1{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header{
+    background-color: var(--cor-secundaria);
+    color: var(--aux-color-2);
+}
+
+header div{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+header div h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.card body{
+    background-color: var(--cor-principal);
+    color: var(--cor-terciaria);
+
+}
+
+.dobra_01{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-principal);
+}
+
+.dobra_01 figure{
+    width: 50%;
+}
+
+.dobra_01 figure img{
+    width: 100%;
+    border-radius: 25%;
+    padding-left: 20px;
+    width: 250px;
+    padding-right: 15px;
+}
+
+.dobra_01 div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dobra_01 div h2{ 
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.dobra_01 div p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+
+/* PAGINA : FOTOS */
+
+.container h1{
+    background-color: var(--cor-principal);
+    color: var(--cor-terciaria);
+    border: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+    background-color: var(--cor-principal);
+}
+
+.gallery-itens{
+    width: 340px;
+    height: 250px;
+    box-shadow: 5px 5px 5px var(--aux-color-2);
+    flex-grow: 1;
+}
+
+.gallery-itens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px solid var(--cor-secundaria);
+}
+
+.gallery-itens:hover{
+    transform: scale(1.3);
+}
+
+/* Responsividade */
+
